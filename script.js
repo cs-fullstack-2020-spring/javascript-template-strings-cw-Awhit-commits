@@ -53,10 +53,12 @@ awayTeam = prompt("What is your away team name?");
 homeScore = parseInt(prompt("How many points did the " + homeTeam +" score."));
 awayScore = parseInt(prompt("How many points did the " + awayTeam +" score."));
 
+//Set the winning message according to which team won using template strings
 homeWin = `Looks like the ${homeTeam} have defeated the ${awayTeam}!`
 awayWin = `Looks like the ${awayTeam} have defeated the ${homeTeam}!`
 
 
+//Setting conditions according to if the away team or the home team won
 if (homeScore > awayScore) {
     alert(`${homeWin}
     Home/${homeTeam}: ${homeScore}
@@ -68,6 +70,7 @@ if (homeScore > awayScore) {
     Visitors/${awayTeam}: ${awayScore}`)
     
 }
+//If they tied as well, it will say it tied
 else(
     alert(`It looks like we have a tied game folks. We're going into overtime!
     Home/${homeTeam}: ${homeScore}
