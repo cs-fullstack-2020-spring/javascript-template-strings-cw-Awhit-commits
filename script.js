@@ -15,18 +15,18 @@ let awayWin;
 
 //Exercise 1
 
-//Initializing variables that are being used in Exercise 1 
-myName = "Kevin";
-myId = "2112";
-myAddress ="Memphis, TN";
+// //Initializing variables that are being used in Exercise 1 
+// myName = "Kevin";
+// myId = "2112";
+// myAddress ="Memphis, TN";
 
-//Recreating the sample output by using template literals
-my_template_string = `My name is ${myName}.
-My id is ${myId}.
-My address is ${myAddress}.`
+// //Recreating the sample output by using template literals
+// my_template_string = `My name is ${myName}.
+// My id is ${myId}.
+// My address is ${myAddress}.`
 
-//Printing it in the console
-console.log(my_template_string);
+// //Printing it in the console
+// console.log(my_template_string);
 
 //Exercise 2
 
@@ -53,6 +53,7 @@ awayTeam = prompt("What is your away team name?");
 homeScore = parseInt(prompt("How many points did the " + homeTeam +" score."));
 awayScore = parseInt(prompt("How many points did the " + awayTeam +" score."));
 
+// !! Setting the messages as vaiables is a nice touch! Would have liked to see you do the same for the tie message as well
 //Set the winning message according to which team won using template strings
 homeWin = `Looks like the ${homeTeam} have defeated the ${awayTeam}!`
 awayWin = `Looks like the ${awayTeam} have defeated the ${homeTeam}!`
